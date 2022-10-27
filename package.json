@@ -4,11 +4,17 @@
   "description": "Iam learning Node js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": " node index.js",
+    "server":" :listen(5000)",
+    "test": "echo \"Error: no test specified\" "
   },
   "keywords": [
     "hello"
   ],
   "author": "Patrick",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.26.0",
+    "minimist": "^1.2.7"
+  }
 }
